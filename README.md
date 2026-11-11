@@ -91,12 +91,6 @@ Run the tests with:
 pytest
 ```
 
-## Things worth knowing
-
-- **Consistency is good, not perfect.** The model can still drift on small details, and occasionally it will draw a character twice in one frame or swap an outfit. If a scene comes out wrong, tightening the character description or simplifying the scene text usually fixes it on the next run.
-- **Keep scenes simple.** One clear action per scene gives the best pictures and the cleanest narration.
-- **Runs take a while.** Each scene needs an image and an audio clip, so a longer script means a few minutes of waiting and some API cost.
-- **If the video step fails immediately,** run `ffmpeg -version` and `ffprobe -version` in your terminal. If either is missing, that's the problem.
 
 ## Ideas for later
 
@@ -105,10 +99,4 @@ pytest
 - Background music and simple transitions
 - Export of the images and audio as separate files
 
-## Related
 
-There's also a newer version, [Story to Video](https://github.com/Jaycobson/GenAI-image-Video-scripts), where you give it a one-line idea instead of a full script and a model plans the scenes for you.
-
-## Contributing
-
-Issues and pull requests are welcome. Please run `pytest` before opening a PR.
