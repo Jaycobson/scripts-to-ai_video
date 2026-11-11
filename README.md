@@ -1,6 +1,6 @@
 # 🎬 Script to Visuals
 
-Paste a script, describe your characters once, and get back illustrated scenes and a narrated video. No design tools, no editing software, one button.
+Paste a script, describe your characters once, and get back illustrated scenes and a narrated video. 
 
 ![Script to Visuals home screen](screenshots/01-input.png)
 
